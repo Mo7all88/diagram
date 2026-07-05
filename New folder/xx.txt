@@ -1,0 +1,269 @@
+PS D:\programming projects\prof\mobile> flutter run -d R58M547TP1H
+Launching lib\main.dart on SM A205F in debug mode...
+WARNING: Your app uses the following plugins that apply Kotlin Gradle Plugin (KGP): pdfx, safe_device, wakelock_plus     
+Future versions of Flutter will fail to build if your app uses plugins that apply KGP.
+
+Please check the changelogs of these plugins and upgrade to a version that supports Built-in Kotlin.
+If no such version exists, report the issue to the plugin. If necessary, here is a guide on filing
+an issue against a plugin: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-app-developers#report-incompatible-kotlin-gradle-plugin-usage-to-plugin-authors
+
+If you are a plugin author, please migrate your plugin to Built-in Kotlin using this guide: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-plugin-authors
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Running Gradle task 'assembleDebug'...                            286.6s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           6.4s
+I/FlutterActivityAndFragmentDelegate( 1665): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.    
+D/FlutterJNI( 1665): Beginning load of flutter...
+D/FlutterJNI( 1665): flutter (null) was loaded normally!
+I/flutter ( 1665): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+D/FlutterRenderer( 1665): Width is zero. 0,0
+I/ViewRootImpl@644eacb[MainActivity]( 1665): stopped(true) old=false
+I/Choreographer( 1665): Skipped 36 frames!  The application may be doing too much work on its main thread.
+I/SurfaceView( 1665): onWindowVisibilityChanged(4) false io.flutter.embedding.android.FlutterSurfaceView{e8f47ee G.E...... ......I. 0,0-0,0} of ViewRootImpl@644eacb[MainActivity]
+D/FlutterRenderer( 1665): Width is zero. 0,0
+Syncing files to device SM A205F...                                149ms
+I/SurfaceControl( 1665): assignNativeObject: nativeObject = 0 Surface(name=null)/@0xb00548f / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1810 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+I/SurfaceControl( 1665): assignNativeObject: nativeObject = 0 Surface(name=null)/@0xe81c31c / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+I/ViewRootImpl@644eacb[MainActivity]( 1665): Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(0,0)4 dur=16 res=0x1 s={false 0} ch=false fn=-1
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on SM A205F is available at: http://127.0.0.1:11055/Ulo8_nmvaNQ=/
+The Flutter DevTools debugger and profiler on SM A205F is available at:
+http://127.0.0.1:11055/Ulo8_nmvaNQ=/devtools/?uri=ws://127.0.0.1:11055/Ulo8_nmvaNQ=/ws
+D/FlutterRenderer( 1665): Width is zero. 0,0
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: false
+I/ViewRootImpl@644eacb[MainActivity]( 1665): stopped(false) old=true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): stopped(false) old=false
+I/SurfaceView( 1665): onWindowVisibilityChanged(0) true io.flutter.embedding.android.FlutterSurfaceView{e8f47ee V.E...... ......I. 0,0-0,0} of ViewRootImpl@644eacb[MainActivity]
+I/SurfaceControl( 1665): assignNativeObject: nativeObject = 0 Surface(name=null)/@0xe81c31c / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+I/ViewRootImpl@644eacb[MainActivity]( 1665): Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=32 res=0x7 s={true 532009865216} ch=true fn=-1
+I/SurfaceView( 1665): windowStopped(false) true io.flutter.embedding.android.FlutterSurfaceView{e8f47ee V.E...... ......I. 0,0-0,0} of ViewRootImpl@644eacb[MainActivity]
+D/FlutterJNI( 1665): Sending viewport metrics to the engine.
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:10957 android.view.ViewRootImpl.performTraversals:3845 android.view.ViewRootImpl.doTraversal:2618
+I/SurfaceView( 1665): surfaceCreated 1 #8 io.flutter.embedding.android.FlutterSurfaceView{e8f47ee V.E...... ......ID 0,0-720,1476}
+I/Gralloc4( 1665): mapper 4.x is not supported
+W/Gralloc3( 1665): mapper 3.x is not supported
+I/gralloc ( 1665): Arm Module v1.0
+W/Gralloc4( 1665): allocator 3.x is not supported
+W/Gralloc3( 1665): allocator 3.x is not supported
+I/SurfaceView( 1665): surfaceChanged (720,1476) 1 #8 io.flutter.embedding.android.FlutterSurfaceView{e8f47ee V.E...... ......ID 0,0-720,1476}
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] dp(2) 1 android.view.SurfaceView.updateSurface:1311 android.view.SurfaceView$1.onPreDraw:225 android.view.ViewTreeObserver.dispatchOnPreDraw:1124
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+D/FlutterJNI( 1665): Sending viewport metrics to the engine.
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/affaass.academ( 1665): Background young concurrent copying GC freed 3003(363KB) AllocSpace objects, 2(104KB) LOS objects, 8% free, 3363KB/3693KB, paused 5.582ms total 110.223ms
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/affaass.academ( 1665): Background concurrent copying GC freed 1907(158KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3787KB/7574KB, paused 250us total 111.947ms
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/flutter ( 1665): User granted notification permission
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/FLTFireBGExecutor( 1665): Creating background FlutterEngine instance, with args: [--enable-dart-profiling]
+D/FLTFireContextHolder( 1665): received application context.
+I/flutter ( 1665): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/Choreographer( 1665): Skipped 402 frames!  The application may be doing too much work on its main thread.
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@a5acb25  isViewVisible: true
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] pdf(1) 1 android.view.SurfaceView.notifyDrawFinished:577 android.view.SurfaceView.performDrawFinished:564 android.view.SurfaceView.lambda$TWz4D2u33ZlAmRtgKzbqqDue3iM:0
+D/ProfileInstaller( 1665): Installing profile for com.aliqaffaass.academy
+I/FLTFireMsgService( 1665): FlutterFirebaseMessagingBackgroundService started!
+I/Choreographer( 1665): Skipped 59 frames!  The application may be doing too much work on its main thread.
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] pd() Asnyc report
+I/SurfaceView( 1665): setParentSpaceRectangle: useBLAST = false position = Rect(0, 0 - 720, 1476) frameNumber = 1 t = android.view.SurfaceControl$Transaction@7579467
+I/SurfaceView( 1665): applySurfaceTransforms: t = android.view.SurfaceControl$Transaction@7579467 surfaceControl = Surface(name=SurfaceView - com.aliqaffaass.academy/com.aliqaffaass.academy.MainActivity@e8f47ee@0)/@0xe2bc214 frame = 1        
+I/SurfaceView( 1665): applySurfaceTransforms: postScaleX = 1.0 postScaleY = 1.0
+I/OpenGLRenderer( 1665): Davey! duration=1110ms; Flags=0, IntendedVsync=37507523183918, Vsync=37508506517212, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=37508511056633, AnimationStart=37508511065017, PerformTraversalsStart=37508511068594, DrawStart=37508513235210, SyncQueued=37508519615787, SyncStart=37508520836017, IssueDrawCommandsStart=37508522703479, SwapBuffers=37508630517286, FrameCompleted=37508634793863, DequeueBufferDuration=7255077, QueueBufferDuration=1041461, GpuCompleted=0,
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$performDraw$1$ViewRootImpl:4668 android.view.-$$Lambda$ViewRootImpl$DJd0VUYJgsebcnSohO6h8zc_ONI.run:6 android.os.Handler.handleCallback:938
+I/ViewRootImpl@644eacb[MainActivity]( 1665): [DP] rdf()
+D/skia    ( 1665): --- Failed to create image decoder with message 'unimplemented'
+E/FlutterImageDecoderImplDefault( 1665): Failed to decode image
+E/FlutterImageDecoderImplDefault( 1665): android.graphics.ImageDecoder$DecodeException: Failed to create image decoder with message 'unimplemented'Input contained an error.
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder.nCreate(Native Method)
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder.access$200(ImageDecoder.java:173)       
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder$ByteBufferSource.createImageDecoder(ImageDecoder.java:250)
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder.decodeBitmapImpl(ImageDecoder.java:2007)
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder.decodeBitmap(ImageDecoder.java:2000)    
+E/FlutterImageDecoderImplDefault( 1665):        at io.flutter.embedding.engine.image.ImageDecoderDefaultImpl.decodeImage(ImageDecoderDefaultImpl.java:44)
+E/FlutterImageDecoderImplDefault( 1665):        at io.flutter.embedding.engine.image.FlutterImageDecoder.decodeImage(FlutterImageDecoder.java:60)
+E/FlutterImageDecoderImplDefault( 1665):        at io.flutter.embedding.engine.FlutterJNI.decodeImage(FlutterJNI.java:577)
+I/ViewRootImpl@644eacb[MainActivity]( 1665): MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@6e30a89[MainActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16777216
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@6e30a89[MainActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16777216
+V/InputMethodManager( 1665): Starting input: tba=com.aliqaffaass.academy ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager( 1665): startInputInner - Id : 0
+I/InputMethodManager( 1665): startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport( 1665): Input channel constructed: 'ClientS', fd=132
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@6e30a89[MainActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16777216
+V/InputMethodManager( 1665): Starting input: tba=com.aliqaffaass.academy ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager( 1665): startInputInner - Id : 0
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532001533696]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532001533696]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532001533600]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532001533600]
+I/LocationAssistant( 1665): onNeedLocationPermission called
+I/DecorView( 1665): [INFO] isPopOver=false, config=true
+I/DecorView( 1665): updateCaptionType >> DecorView@aa98b9d[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+D/DecorView( 1665): setCaptionType = 0, this = DecorView@aa98b9d[]
+D/InputTransport( 1665): Input channel constructed: '5c109b5', fd=137
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): setView = com.android.internal.policy.DecorView@aa98b9d TM=true        
+I/SurfaceControl( 1665): assignNativeObject: nativeObject = 0 Surface(name=null)/@0x929960d / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=31 res=0x7 s={true 531755155456} ch=true fn=-1
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:10957 android.view.ViewRootImpl.performTraversals:3845 android.view.ViewRootImpl.doTraversal:2618
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): [DP] pd() Asnyc report
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$performDraw$1$ViewRootImpl:4668 android.view.-$$Lambda$ViewRootImpl$DJd0VUYJgsebcnSohO6h8zc_ONI.run:6 android.os.Handler.handleCallback:938      
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): [DP] rdf()
+I/ViewRootImpl@644eacb[MainActivity]( 1665): MSG_WINDOW_FOCUS_CHANGED 0 1
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532136444096]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532136444096]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[534553188736]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[534553188736]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[534553194400]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[534553194400]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532136444288]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532136444288]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532136444192]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532136444192]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[529553581184]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[529553581184]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532136447936]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532136447936]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[531895675296]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[531895675296]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532137162432]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532137162432]
+D/InputTransport( 1665): Input channel destroyed: 'ClientS', fd=132
+I/SurfaceControl( 1665): nativeRelease nativeObject s[531895675488]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[531895675488]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532008750816]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532008750816]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[534553194400]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[534553194400]
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@aa98b9d[SignInHubActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16711423
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@aa98b9d[SignInHubActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16711423
+V/InputMethodManager( 1665): Starting input: tba=com.aliqaffaass.academy ic=null mNaviBarColor -16711423 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager( 1665): startInputInner - Id : 0
+I/InputMethodManager( 1665): startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport( 1665): Input channel constructed: 'ClientS', fd=124
+I/ViewRootImpl@644eacb[MainActivity]( 1665): stopped(false) old=false
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): stopped(true) old=false
+I/SurfaceControl( 1665): nativeRelease nativeObject s[529103363488]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[529103363488]
+W/libEGL  ( 1665): EGLNativeWindowType 0x7bcf13c010 disconnect failed
+I/ViewRootImpl@694edd1[SignInHubActivity]( 1665): dispatchDetachedFromWindow
+D/InputTransport( 1665): Input channel destroyed: '5c109b5', fd=137
+I/SurfaceControl( 1665): nativeRelease nativeObject s[531892515776]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[531892515776]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532008750912]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532008750912]
+E/ViewRootImpl( 1665): sendUserActionEvent() mView returned.
+E/ViewRootImpl( 1665): sendUserActionEvent() mView returned.
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532008671200]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532008671200]
+I/SurfaceControl( 1665): assignNativeObject: nativeObject = 0 Surface(name=null)/@0xe81c31c / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532137161088]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532137161088]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532136444192]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532136444192]
+I/ViewRootImpl@644eacb[MainActivity]( 1665): Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=16 res=0x1 s={true 532009865216} ch=false fn=2
+I/ViewRootImpl@644eacb[MainActivity]( 1665): updateBoundsLayer: shouldReparent = false t = android.view.SurfaceControl$Transaction@bf4000e sc = Surface(name=Bounds for - com.aliqaffaass.academy/com.aliqaffaass.academy.MainActivity@0)/@0x7bc7a2f frame = 2
+I/ViewRootImpl@644eacb[MainActivity]( 1665): MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@6e30a89[MainActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16777216
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@6e30a89[MainActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16777216
+V/InputMethodManager( 1665): Starting input: tba=com.aliqaffaass.academy ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager( 1665): startInputInner - Id : 0
+I/InputMethodManager( 1665): startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport( 1665): Input channel constructed: 'ClientS', fd=127
+D/InputTransport( 1665): Input channel destroyed: 'ClientS', fd=124
+I/SurfaceControl( 1665): nativeRelease nativeObject s[531892515776]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[531892515776]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532008671200]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532008671200]
+D/skia    ( 1665): --- Failed to create image decoder with message 'unimplemented'
+E/FlutterImageDecoderImplDefault( 1665): Failed to decode image
+E/FlutterImageDecoderImplDefault( 1665): android.graphics.ImageDecoder$DecodeException: Failed to create image decoder with message 'unimplemented'Input contained an error.
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder.nCreate(Native Method)
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder.access$200(ImageDecoder.java:173)       
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder$ByteBufferSource.createImageDecoder(ImageDecoder.java:250)
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder.decodeBitmapImpl(ImageDecoder.java:2007)
+E/FlutterImageDecoderImplDefault( 1665):        at android.graphics.ImageDecoder.decodeBitmap(ImageDecoder.java:2000)    
+E/FlutterImageDecoderImplDefault( 1665):        at io.flutter.embedding.engine.image.ImageDecoderDefaultImpl.decodeImage(ImageDecoderDefaultImpl.java:44)
+E/FlutterImageDecoderImplDefault( 1665):        at io.flutter.embedding.engine.image.FlutterImageDecoder.decodeImage(FlutterImageDecoder.java:60)
+E/FlutterImageDecoderImplDefault( 1665):        at io.flutter.embedding.engine.FlutterJNI.decodeImage(FlutterJNI.java:577)
+D/SmartClipDataCropperImpl( 1665): doExtractSmartClipData : Extraction start! reqId = 14  Cropped area = Rect(360, 780 - 361, 781)  Package = com.aliqaffaass.academy
+D/SmartClipDataCropperImpl( 1665): addAppMetaTag : package name is com.aliqaffaass.academy
+D/SmartClipDataCropperImpl( 1665): sendExtractionResultToSmartClipService : -- Extracted SmartClip data information --   
+D/SmartClipDataCropperImpl( 1665): sendExtractionResultToSmartClipService : Request Id : 14
+D/SmartClipDataCropperImpl( 1665): sendExtractionResultToSmartClipService : Extraction mode : 1
+D/SemSmartClipDataRepository( 1665): ----- Start of SmartClip repository informations -----
+D/SemSmartClipDataRepository( 1665): ** Content type : image
+D/SemSmartClipDataRepository( 1665): ** Meta area rect : Rect(0, 0 - 0, 0)
+D/SemSmartClipDataRepository( 1665): ** Captured image file path : null
+D/SemSmartClipDataRepository( 1665): ----- End of SmartClip repository informations -----
+D/SmartClipDataCropperImpl( 1665): sendExtractionResultToSmartClipService : Elapsed = 25
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532137160800]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532137160800]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532136444192]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532136444192]
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532137162144]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532137162144]
+I/ViewRootImpl@644eacb[MainActivity]( 1665): MSG_WINDOW_FOCUS_CHANGED 0 1
+D/SmartClipRemoteRequestDispatcher( 1665): dispatchScrollableAreaInfo : windowRect = Rect(0, 0 - 720, 1560)
+D/SmartClipRemoteRequestDispatcher( 1665): dispatchScrollableAreaInfo : Scrollable view count = 1
+D/SmartClipRemoteRequestDispatcher( 1665): dispatchScrollableAreaInfo : Unscrollable view count = 0
+D/SmartClipRemoteRequestDispatcher( 1665): dispatchScrollableAreaInfo : Pkg=com.aliqaffaass.academy Activity=null        
+I/SurfaceControl( 1665): nativeRelease nativeObject s[532137160896]
+I/SurfaceControl( 1665): nativeRelease nativeObject e[532137160896]
+I/ViewRootImpl@644eacb[MainActivity]( 1665): MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@6e30a89[MainActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16777216
+D/InputMethodManager( 1665): prepareNavigationBarInfo() DecorView@6e30a89[MainActivity]
+D/InputMethodManager( 1665): getNavigationBarColor() -16777216
+V/InputMethodManager( 1665): Starting input: tba=com.aliqaffaass.academy ic=null mNaviBarColor -16777216 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager( 1665): startInputInner - Id : 0
+I/InputMethodManager( 1665): startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport( 1665): Input channel constructed: 'ClientS', fd=124
+D/InputTransport( 1665): Input channel destroyed: 'ClientS', fd=127
+
+Application finished.
+PS D:\programming projects\prof\mobile> 
